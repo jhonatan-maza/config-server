@@ -7,8 +7,6 @@ spring:
       server:
         git:
           default-label: master
-          uri: https://github.com/jhonatan-maza/bootcamp-customer
+          uri: https://github.com/jhonatan-maza/bootcamp-passive-savings
   application:
-    name: bootcamp-customer
-
-    
+    name: bootcamp-passive-savings
