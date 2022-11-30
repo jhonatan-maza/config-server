@@ -1,3 +1,4 @@
+
 spring:
   data:
     mongodb:
@@ -11,14 +12,4 @@ spring:
   application:
     name: bootcamp-customer
 
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-  instance:
-    instance-id: :${spring.application.name}:${spring.application.instance_id:${random.value}}
-    #hostname: localhost
-    service-url:
-      default-zone: http://localhost:8761/eureka
-    prefer-ip-address: true
     
