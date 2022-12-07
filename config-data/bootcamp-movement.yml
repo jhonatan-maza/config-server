@@ -7,6 +7,6 @@ spring:
       server:
         git:
           default-label: master
-          uri: https://github.com/jhonatan-maza/bootcamp-balance
+          uri: https://github.com/jhonatan-maza/bootcamp-movement
   application:
-    name: bootcamp-balance
+    name: bootcamp-movement
